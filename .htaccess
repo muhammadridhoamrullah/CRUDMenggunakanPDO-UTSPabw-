@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^uts\.ridhoamrullah10\.my\.id$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.uts\.ridhoamrullah10\.my\.id$
+RewriteRule ^/?$ "http\:\/\/uts\.ridhoamrullah10\.my\.id\/CRUD2020\/" [R=302,L]
+
